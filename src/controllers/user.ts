@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { User } from "../entity/user";
+import { User } from "../entity/User";
 import { AppDataSource } from "../ormconfig";
 
 const createUser = async (req: Request, res: Response) => {
